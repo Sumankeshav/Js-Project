@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+     <title>Document</title>
+  <script src="index.js"></script>
+</head>
+<body class="p-12 ">
+  <div class="bg-red-200 p-4  rounded-lg border-slate-700">
+    <h1 class="font-bold text-center ">Stop Watch</h1>
+    <div class="stopwatch">
+      <div class="font-bold text-[#fb5b5b]  flex justify-center gap-2">
+        <span id="minutes">00</span>
+        <span id="seconds">00</span>
+        <span id="milliseconds">00</span>
+      </div>
+      <div class="control gap-2 flex justify-center flex-wrap">
+        <button class="rounded-full bg-sky-600 w-16 hover:bg-red-700" id="startBtn">Start</button>
+        <button class="rounded-full bg-sky-600 w-16 hover:bg-red-700" id="stopBtn">Stop</button>
+        <button class="rounded-full bg-sky-600 w-16 hover:bg-red-700" id="pauseBtn">Pause</button>
+        <button class="rounded-full bg-sky-600 w-16 hover:bg-red-700" id="resetBtn">Reset</button>
+      </div>
+      <div class="laps">
+        <h2 class="text-lg font-bold text-center">Lap Timer</h2>
+        <ul class="text-lg font-bold text-center" id="laplist">Lap: 01:45</ul>
+      </div>
+    </div>
+  </div>
+
+    
+</body>
+</html>
